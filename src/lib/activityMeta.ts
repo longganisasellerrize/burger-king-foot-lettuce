@@ -78,10 +78,10 @@ export function dueLabel(type: ActivityType): string {
 
 export const SUBJECTS = [
   'General Mathematics',
-  'Earth and Life Science',
+  'EALS',
   'Oral Communication',
   'Komunikasyon at Pananaliksik',
-  'Understanding Culture, Society and Politics',
-  'Physical Education and Health',
+  'FPL',
+  'HOPE',
   'Homeroom / Advisory',
 ];

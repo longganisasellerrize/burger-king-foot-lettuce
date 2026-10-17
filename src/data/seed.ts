@@ -270,11 +270,11 @@ const CURRICULUM: Record<string, Topic[]> = {
 
 /** Subjects recorded on each weekday (1 = Monday … 5 = Friday). */
 const WEEKLY_SCHEDULE: Record<number, string[]> = {
-  1: ['General Mathematics', 'Earth and Life Science'],
+  1: ['General Mathematics', 'EALS'],
   2: ['Oral Communication', 'Komunikasyon at Pananaliksik'],
-  3: ['General Mathematics', 'Understanding Culture, Society and Politics'],
-  4: ['Earth and Life Science', 'Oral Communication'],
-  5: ['Physical Education and Health', 'General Mathematics'],
+  3: ['General Mathematics', 'FPL'],
+  4: ['EALS', 'Oral Communication'],
+  5: ['HOPE', 'General Mathematics'],
 };
 
 /** Next school day strictly after `date`, plus `extra` more school days. */
@@ -357,6 +357,8 @@ export function createSeedDatabase(today: ISODate = todayISO()): Database {
     const weekday = fromISODate(date).getDay();
     for (const subject of WEEKLY_SCHEDULE[weekday] ?? []) {
       const topics = CURRICULUM[subject];
+      // If a subject is renamed in CURRICULUM but not in WEEKLY_SCHEDULE, skip it instead of crashing.
+      if (!topics?.length) continue;
       const idx = topicIndex[subject] ?? 0;
       topicIndex[subject] = idx + 1;
       meetingCount[subject] = (meetingCount[subject] ?? 0) + 1;
@@ -446,7 +448,7 @@ export function createSeedDatabase(today: ISODate = todayISO()): Database {
   addActivity({
     date: recentAbsenceCandidate,
     type: 'performance_task',
-    subject: 'Earth and Life Science',
+    subject: 'EALS',
     title: 'Performance Task: Hazard Map of Our Barangay',
     description: 'In groups of four, create a hazard map identifying earthquake, flood, and landslide risk areas in your community.',
     instructions: 'Use the provided map template. Include a legend and three safety recommendations. Group leaders submit the output.',
@@ -474,7 +476,7 @@ export function createSeedDatabase(today: ISODate = todayISO()): Database {
   addActivity({
     date: schoolDaysAfter(examDay, 1),
     type: 'exam',
-    subject: 'Earth and Life Science',
+    subject: 'EALS',
     title: 'First Quarter Examination – Earth and Life Science',
     description: 'Covers the origin of the universe through the geologic time scale.',
   });
