@@ -36,7 +36,7 @@ export function StudentCalendar() {
     <>
       <PageHead
         title="Class Calendar"
-        sub="Select any date to see the lessons, activities, assignments, and announcements recorded that day. Days you were absent are highlighted in red."
+        sub="pag nde ka napasok kulay red oki"
       />
       <CalendarView mode="student" studentId={student.id} sectionId={student.sectionId} />
     </>
@@ -53,7 +53,7 @@ export function StudentAttendance() {
   return (
     <>
       <PageHead
-        title="My Attendance"
+        title="Imong Attendance"
         sub="Your attendance records for this school year. Select a date to see what happened in class that day."
         actions={
           <Link to="/student/check-in" className="btn btn-primary">
