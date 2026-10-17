@@ -54,7 +54,7 @@ const STUDENT_NAMES: [string, string, 'M' | 'F'][] = [
   ['Zian', 'Baste', 'M'],
   ['ChatGemini', 'xyz', 'F'],
   ['Valorant', 'Omsim', 'M'],
-  ['Bhoszx', 'Jayden', 'F'],
+  ['Bhoszx', 'Jaydin', 'F'],
   ['Ivan', 'Navarro', 'M'],
   ['Imissyou', '123', 'F'],
 ];
