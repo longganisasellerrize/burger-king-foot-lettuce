@@ -45,18 +45,18 @@ function prng(seed: number) {
 }
 
 const STUDENT_NAMES: [string, string, 'M' | 'F'][] = [
-  ['Juan', 'Dela Cruz', 'M'],
-  ['Maria', 'Santos', 'F'],
-  ['Angelo', 'Bautista', 'M'],
-  ['Bea', 'Villanueva', 'F'],
-  ['Carlo', 'Mendoza', 'M'],
-  ['Danica', 'Ramos', 'F'],
-  ['Enzo', 'Garcia', 'M'],
-  ['Faith', 'Aquino', 'F'],
-  ['Gabriel', 'Torres', 'M'],
-  ['Hannah', 'Castillo', 'F'],
+  ['Gregor', 'Mendel', 'D'],
+  ['Gusion', 'Alucard', 'M'],
+  ['Dwight', 'Ramos', 'M'],
+  ['Leo', 'Navarro II', 'F'],
+  ['Bingbong', 'Markus', 'M'],
+  ['Leni', 'Netanyahu', 'I'],
+  ['Sara', 'Butete', 'M'],
+  ['Chatgemini', 'xyz', 'F'],
+  ['Stem1', 'junior', 'M'],
+  ['Biringan', 'Cedrick', 'F'],
   ['Ivan', 'Navarro', 'M'],
-  ['Jasmine', 'Flores', 'F'],
+  ['Mark', 'Jhhusztxine', 'F'],
 ];
 
 interface Topic {
@@ -71,14 +71,14 @@ interface Topic {
 const CURRICULUM: Record<string, Topic[]> = {
   'General Mathematics': [
     {
-      title: 'Functions as Models of Real-Life Situations',
-      description: 'Defined functions and relations, and modeled real-life situations (e.g. jeepney fare, mobile load) using piecewise functions.',
-      notes: 'Remember the vertical line test. Review: domain and range.',
+      title: 'Cal-Pre',
+      description: 'Noob Vs Pro Vs Hacker.',
+      notes: 'Dili ko bigay grades mo pag imong tanan ay abseenteism',
       activity: { title: 'Board work: Is it a function?', format: 'seatwork', description: 'Students identified whether given mappings, tables, and graphs represent functions.' },
     },
     {
-      title: 'Evaluating Functions',
-      description: 'Evaluated functions at given values, including piecewise functions.',
+      title: 'Free Palestine',
+      description: 'All Humans Bleed The Same Color',
       assignment: { title: 'Worksheet 1: Evaluating Functions', instructions: 'Answer items 1–15 on the worksheet. Show complete solutions. Submit on paper.' },
     },
     {
@@ -122,9 +122,9 @@ const CURRICULUM: Record<string, Topic[]> = {
   ],
   'Earth and Life Science': [
     {
-      title: 'Origin of the Universe and the Solar System',
-      description: 'Discussed the Big Bang theory and hypotheses on the formation of the solar system.',
-      activity: { title: 'Video analysis worksheet', format: 'individual', description: 'Students answered guide questions after a short documentary.' },
+      title: 'Ang orihin nimo ng visayas',
+      description: 'Nabuo ang cebu sheeshh',
+      activity: { title: 'Bbm naga senghot', format: 'individual', description: 'Students answered guide questions after a short documentary.' },
     },
     {
       title: "Earth's Subsystems",
