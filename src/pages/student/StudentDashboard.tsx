@@ -40,7 +40,7 @@ export function StudentDashboard() {
     <>
       <PageHead
         title={`Good day, ${student.firstName}!`}
-        sub="Here is your attendance and what is happening in class."
+        sub="Here na imong attendance daddy"
         actions={
           <>
             <Link to="/student/check-in" className="btn btn-primary">
@@ -64,7 +64,7 @@ export function StudentDashboard() {
         <StatCard icon={CalendarCheck2} tone="st-present" label="Days present" value={summary.present + summary.late} hint={summary.late ? `${summary.late} late arrival(s)` : undefined} />
         <StatCard icon={CalendarX2} tone="st-absent" label="Days absent" value={summary.absent + summary.excused} hint={summary.excused ? `${summary.excused} excused` : undefined} />
         <StatCard icon={Percent} tone="type-lesson" label="Attendance rate" value={summary.rate === null ? '—' : `${summary.rate}%`} hint={`${summary.total} school days recorded`} />
-        <StatCard icon={AlarmClock} tone="type-ptask" label="Missed items to catch up" value={missed.length} />
+        <StatCard icon={AlarmClock} tone="type-ptask" label="Mga hahabulin mo" value={missed.length} />
       </div>
 
       <div className="grid grid-main">
@@ -72,8 +72,8 @@ export function StudentDashboard() {
           <Card>
             <CardHead
               icon={AlarmClock}
-              title="Activities you missed"
-              sub="Lessons and work recorded on days you were absent"
+              title="Mga hahabulin mo"
+              sub="awit sayo yah"
               action={
                 <Link to="/student/missed" className="btn btn-ghost btn-sm">
                   View all <ArrowRight size={14} aria-hidden />
