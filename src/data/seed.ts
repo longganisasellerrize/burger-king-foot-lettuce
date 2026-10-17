@@ -45,18 +45,18 @@ function prng(seed: number) {
 }
 
 const STUDENT_NAMES: [string, string, 'M' | 'F'][] = [
-  ['Juan', 'Dela Cruz', 'M'],
-  ['Maria', 'Santos', 'F'],
-  ['Angelo', 'Bautista', 'M'],
-  ['Bea', 'Villanueva', 'F'],
-  ['Carlo', 'Mendoza', 'M'],
-  ['Danica', 'Ramos', 'F'],
-  ['Enzo', 'Garcia', 'M'],
-  ['Faith', 'Aquino', 'F'],
-  ['Gabriel', 'Torres', 'M'],
-  ['Hannah', 'Castillo', 'F'],
+  ['Sara', 'Butete', 'M'],
+  ['Lio', 'Navarro jr', 'F'],
+  ['Bingbong', 'Markus', 'M'],
+  ['Paldo', 'mendoza', 'F'],
+  ['criminilogy', 'santos', 'M'],
+  ['Furina', 'DeFontaine', 'F'],
+  ['Zian', 'Baste', 'M'],
+  ['ChatGemini', 'xyz', 'F'],
+  ['Valorant', 'Omsim', 'M'],
+  ['Bhoszx', 'Jayden', 'F'],
   ['Ivan', 'Navarro', 'M'],
-  ['Jasmine', 'Flores', 'F'],
+  ['Imissyou', '123', 'F'],
 ];
 
 interface Topic {
@@ -71,59 +71,59 @@ interface Topic {
 const CURRICULUM: Record<string, Topic[]> = {
   'General Mathematics': [
     {
-      title: 'Functions as Models of Real-Life Situations',
-      description: 'Defined functions and relations, and modeled real-life situations (e.g. jeepney fare, mobile load) using piecewise functions.',
-      notes: 'Remember the vertical line test. Review: domain and range.',
-      activity: { title: 'Board work: Is it a function?', format: 'seatwork', description: 'Students identified whether given mappings, tables, and graphs represent functions.' },
+      title: 'Minecraft VS roblox?',
+      description: 'Taong Roblox vs Herobrine. Continuation sa sabado',
+      notes: 'Jenny mod',
+      activity: { title: 'Function or Cake', format: 'seatwork', description: 'Student dili nagasagot bagsak ang depunggol' },
     },
     {
-      title: 'Evaluating Functions',
-      description: 'Evaluated functions at given values, including piecewise functions.',
-      assignment: { title: 'Worksheet 1: Evaluating Functions', instructions: 'Answer items 1–15 on the worksheet. Show complete solutions. Submit on paper.' },
+      title: 'dogie vs ishowspeed',
+      description: 'Shet shet bumilis ako',
+      assignment: { title: 'Worksheet 1: identify the followinf factors to determine whether erosion is a quadratic equation or depende write it on a small crosswise bondpaper a4 dapat', instructions: 'Answer items 1–15 on the worksheet. Show complete solutions. Submit on paper.' },
     },
     {
-      title: 'Operations on Functions',
-      description: 'Performed addition, subtraction, multiplication, and division of functions.',
-      activity: { title: 'Pair work: Function operations relay', format: 'group', description: 'Pairs solved a chain of function operations; each answer was the input for the next item.' },
+      title: 'El panini',
+      description: 'tig tuyot or tigidigidigidong',
+      activity: { title: 'Pair work: Suntukan pusta bahay', format: 'group', description: 'Pairs solved ; bugbog isa first offense lima' },
     },
     {
-      title: 'Composition of Functions',
-      description: 'Solved composite functions f(g(x)) and interpreted them in context.',
-      notes: 'f(g(x)) is generally NOT equal to g(f(x)).',
+      title: 'Spotify Mod APK October 17 2026 stem 1',
+      description: 'amp absent teacher',
+      notes: 'x is not equal to y because y is not equal to x therefore ily',
     },
     {
-      title: 'Rational Functions, Equations, and Inequalities',
-      description: 'Distinguished rational functions, rational equations, and rational inequalities.',
-      assignment: { title: 'Problem Set: Rational Equations', instructions: 'Solve the 10 rational equations in the problem set. Check for extraneous solutions.' },
+      title: 'irrational vs irrelevant vs immature',
+      description: 'tite defense 26',
+      assignment: { title: 'Problem Set: monday na naman', instructions: 'Solve my problems' },
     },
     {
-      title: 'Solving Rational Inequalities',
-      description: 'Solved rational inequalities using the sign-chart method.',
-      activity: { title: 'Seatwork: Sign charts', format: 'seatwork', description: 'Individual seatwork on solving five rational inequalities using sign charts.' },
+      title: 'Hindi ka na malulungkot baby pauwi na aq',
+      description: 'igbfsbfdsv bfdhyb fasb vfaylsdgbfas',
+      activity: { title: 'Seatwork: pedigree', format: 'seatwork', description: 'pedigree vs family tree make a research title about that' },
     },
     {
-      title: 'Inverse Functions',
-      description: 'Determined inverses of one-to-one functions and verified them by composition.',
+      title: 'Extinct unrecorded dinosaurs',
+      description: 'bisayanisaurus leonavaurus',
     },
     {
-      title: 'Exponential Functions',
-      description: 'Represented real-life situations (population growth, half-life) using exponential functions.',
-      assignment: { title: 'Reflection: Exponential growth around us', instructions: 'Write one paragraph describing a real-life example of exponential growth or decay.' },
+      title: 'exp lane or bike lane',
+      description: 'no parking',
+      assignment: { title: 'Reflection: tomrow', instructions: 'half life vs full life' },
     },
     {
-      title: 'Logarithmic Functions',
-      description: 'Introduced logarithms as inverses of exponential functions and the laws of logarithms.',
+      title: 'Ice age',
+      description: 'kumain ka na baby?',
     },
     {
-      title: 'Simple and Compound Interest',
-      description: 'Computed simple and compound interest, maturity value, and present value.',
-      activity: { title: 'Group task: Savings plan', format: 'group', description: 'Groups compared savings options using simple vs. compound interest.' },
+      title: 'PR2',
+      description: 'kuya may bastos dito oh, nag rroblox',
+      activity: { title: 'Group task: debate telepathically', format: 'group', description: 'sheesh' },
     },
   ],
-  'Earth and Life Science': [
+  'EALS': [
     {
-      title: 'Origin of the Universe and the Solar System',
-      description: 'Discussed the Big Bang theory and hypotheses on the formation of the solar system.',
+      title: 'Mineral composition',
+      description: 'wilkins.',
       activity: { title: 'Video analysis worksheet', format: 'individual', description: 'Students answered guide questions after a short documentary.' },
     },
     {
@@ -226,20 +226,20 @@ const CURRICULUM: Record<string, Topic[]> = {
       activity: { title: 'Indibidwal na gawain: Pagsusuri ng diyalogo', format: 'individual', description: 'Sinuri ang isang diyalogo batay sa kakayahang komunikatibo.' },
     },
   ],
-  'Understanding Culture, Society and Politics': [
+  'FPL': [
     {
-      title: 'Starting Points for Understanding Culture, Society, and Politics',
-      description: 'Introduced anthropology, sociology, and political science as disciplines.',
+      title: 'Free Palestine',
+      description: 'Peace to the land that was created for peace but never saw a peaceful day.',
     },
     {
-      title: 'Defining Culture and Society',
-      description: 'Discussed the characteristics and elements of culture.',
-      activity: { title: 'Gallery walk: Elements of culture', format: 'group', description: 'Groups presented visual examples of material and non-material culture.' },
+      title: 'Tauhang bilog at tauhang parihaba',
+      description: 'antagonist vs phenylalanine',
+      activity: { title: 'create a museum that is life size deadline March 5', format: 'group', description: 'di na pumasok lahat after' },
     },
     {
-      title: 'Ethnocentrism and Cultural Relativism',
-      description: 'Compared ethnocentrism and cultural relativism using local examples.',
-      assignment: { title: 'Reflection paper: Cultural relativism', instructions: 'Write a reflection (200 words) on a cultural practice different from your own.' },
+      title: 'Tutorial minecraft mod apk',
+      description: 'di gumana',
+      assignment: { title: 'Reflection paper: lesson learned', instructions: 'dili ka pasok dili mo makuha imong grado' },
     },
     {
       title: 'Socialization and Enculturation',
@@ -250,20 +250,20 @@ const CURRICULUM: Record<string, Topic[]> = {
       description: 'Distinguished folkways, mores, and laws, and forms of social control.',
     },
   ],
-  'Physical Education and Health': [
+  'HOPE': [
     {
-      title: 'Exercise for Fitness: FITT Principle',
-      description: 'Discussed frequency, intensity, time, and type of exercise.',
-      activity: { title: 'Practical: Fitness assessment', format: 'practical', description: 'Students performed baseline fitness tests (sit-and-reach, push-ups, 3-minute step test).' },
+      title: 'routine ni wally bayola',
+      description: '5 minutes plank 2 minutes rest',
+      activity: { title: 'Practical: BMI VS BPI', format: 'practical', description: 'dalawa patay, lima sugatan, tatlo umuwi' },
     },
     {
-      title: 'Personal Fitness Goals',
-      description: 'Set SMART fitness goals based on fitness test results.',
-      assignment: { title: 'Fitness log (1 week)', instructions: 'Record your daily physical activities for one week using the provided log sheet.' },
+      title: 'My little Pony',
+      description: 'fhygvjkfsvfjksvdfsfsd',
+      assignment: { title: 'pushups 1000', instructions: 'verity' },
     },
     {
-      title: 'Healthy Eating Habits',
-      description: 'Discussed nutrition and the Pinggang Pinoy guide.',
+      title: 'HOPE',
+      description: 'chat gemini please do my workout for me',
     },
   ],
 };
